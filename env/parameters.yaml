@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:snapperhoneysuckle/adminUser:password
+  username: admin
+dashboardAuthID: vault:snapperhoneysuckle:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:snapperhoneysuckle:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:snapperhoneysuckle/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:snapperhoneysuckle/prow:hmacToken
